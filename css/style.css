@@ -1,0 +1,125 @@
+body {
+	font: 14px Arial , San-serif;
+	background: #101010;
+	color: beige;
+	margin: 0;
+	padding: 0;
+	
+}
+
+/*GLOBAL CSS*/
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+/*NAVIGATION*/
+header {
+	/*height: 35px;*/
+	width: 100%;
+	background-color: #333;
+	color: #eee;
+	position: fixed;
+}
+nav a:hover {
+	background-color: #ddd;
+  color: black;
+}
+nav a {
+	float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#show {
+	background: url(../img/show.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+#show h1 {
+	font-size: 45px;
+	margin-top: 25vh;
+}
+#show h2 {
+	font-size: 35px;
+	font-weight: 5;
+}
+#show p {
+	font-size: 18px;
+}
+#show h1, #show h2, #show p {
+	color: #fff;
+	text-shadow: 1px 1px 3px black;
+}
+
+/*ABOUT*/
+#about {
+	background: lightcoral;
+	padding-top: 40px;
+	color: #fff;
+	padding-bottom: 50px
+}
+#about .aboutflex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.box {
+	width: 45%;
+
+	text-align: center;
+}
+#about .logo {
+	display: flex;
+	justify-content: center;
+}
+#about .logo img {
+	width: 300px;
+	height: 300px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+
+#services {
+	margin-top: -20px;
+	background: url(../img/services.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	padding-top: 50px;
+	text-shadow: 1px 1px 5px black;
+}
+#services h1 {
+	font-size: 30px
+}
+#services p {
+	font-size: 16px;
+}
+
+#services-logo {
+	background: beige;
+	color: #101010;
+	text-align: center;
+}
+#services-logo .servicesflex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#services-logo .servicesflex .box {
+	width: 30%;
+}
